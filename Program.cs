@@ -47,7 +47,7 @@ var summaries = new[]
 
 app.MapGet("/", () =>
 {
-    return "Hello api net-todo";
+    return "Hello api net-todo heileo!";
 }).WithName("HEllo page");
 
 app.MapGet("/weatherforecast", () =>
